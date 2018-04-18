@@ -9,7 +9,7 @@ import aiohttp
 
 merda = [ 'seu merda', 'SEU MERDA', 'SEU MERDINHA', 'SEU MERDAO', 'seu merdao' ]
 
-owner = ["419959252292075524D"]
+owner = ["DONO DO GP OU O CARA Q VAI BOTAR"]
 
 bot = commands.Bot(command_prefix='!', description="Pois e.. Sabe nao cabaco?")
 
@@ -73,4 +73,4 @@ async def on_message(message):
     if message.content.startswith('vc e corno'):
         await bot.send_message(message.channel, 'CUCK E TEU PAI <#')
 
-bot.run('NDM1ODQ2MzY0NzE5NDgwODMz.Dbe5og.j3MYEhtKUMqCreYnsAtpO2775_I')
+bot.run('TOKEN')
